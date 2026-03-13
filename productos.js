@@ -243,7 +243,7 @@ const productos = [
         nombre: "Kit Seguridad Hogar Inteligente",
         categoria: "Kits",
         precio: 214900,
-        imagen: "https://i.postimg.cc/tgrWTR2D/106837583068e0d43a2d8346-51399007-63ea19aa4a020b5ce217734110937818-1024-1024.webp",
+        imagen: "https://i.postimg.cc/NMb2xSbK/Chat-GPT-Image-13-mar-2026-06-58-24-p-m.png",
         descripcion: "Cerradura Biométrica + Cámara 360 + Sensores. Protección total."
     },
     {
