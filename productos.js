@@ -236,7 +236,7 @@ const productos = [
         nombre: "Kit Neón Flex 3mts + Fuente",
         categoria: "Kits",
         precio: 16900,
-        imagen: "https://i.postimg.cc/7YMDWPXb/manguera-led-neon-fucsia-01-copia-8d911060a3b556341717539973845420-1024-1024.webp",
+        imagen: "https://i.postimg.cc/Rhy8bMTR/Chat-GPT-Image-13-mar-2026-07-36-01-p-m.png",
         descripcion: "Combo listo para instalar: incluye 3 metros de neón (color a elección) y fuente."
     },
     {
@@ -250,14 +250,14 @@ const productos = [
         nombre: "Kit Tira LED RGB Smart WiFi",
         categoria: "Kits",
         precio: 41500,
-        imagen: "https://i.postimg.cc/ZYg57zvP/tira.webp",
+        imagen: "https://i.postimg.cc/nrJ9KmyZ/Chat-GPT-Image-13-mar-2026-07-27-21-p-m.png",
         descripcion: "5m tira RGB + Fuente + Controladora WiFi. ¡Manejalo desde el celu!"
     },
     {
         nombre: "Kit Tira LED RGB Clásico",
         categoria: "Kits",
         precio: 31900,
-        imagen: "https://i.postimg.cc/ZYg57zvP/tira.webp",
+        imagen: "https://i.postimg.cc/DyGs9jwj/Chat-GPT-Image-13-mar-2026-07-20-11-p-m.png",
         descripcion: "5m tira RGB + Fuente + Control Remoto. Simple y efectivo."
     }
 ];
