@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo Electro LED</title>
+
+    <meta property="og:title" content="Catálogo Electro LED - San Juan">
+    <meta property="og:description" content="Especialistas en Domótica, Iluminación y Seguridad. Mirá nuestro catálogo online y hacé tu pedido.">
+    <meta property="og:image" content="https://i.postimg.cc/tgsKp9dP/e6aeb6dd-6335-4fce-b702-2ec8b3ed3e0e.png">
+    <meta property="og:url" content="https://paiojr.github.io/CatalogoElectroLED/">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="https://i.postimg.cc/tgsKp9dP/e6aeb6dd-6335-4fce-b702-2ec8b3ed3e0e.png" type="image/x-icon">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 p-5 text-white">
+
+    <header class="text-center mb-10">
+        <img src="https://i.postimg.cc/tgsKp9dP/e6aeb6dd-6335-4fce-b702-2ec8b3ed3e0e.png" 
+             alt="Logo Electro LED" 
+             style="height: 180px;" 
+             class="mb-4 object-contain mx-auto">
+        <p class="text-gray-300 font-semibold text-lg">Domótica e Iluminación - San Juan</p>
+    </header>
+
+    <div class="max-w-6xl mx-auto mb-6">
+        <input type="text" id="buscador" placeholder="Buscar productos (ej. Reflector, Neón, 12V)..." 
+               class="w-full p-4 rounded-lg shadow-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-black">
+    </div>
+
+    <div class="flex flex-wrap justify-center gap-3 mb-8 max-w-6xl mx-auto">
+        <button onclick="filtrarCategoria('Todas')" class="bg-blue-600 hover:bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg transition-colors shadow-sm">Ver Todo</button>
+        <button onclick="filtrarCategoria('Iluminación')" class="bg-slate-800 hover:bg-slate-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors border border-slate-600 shadow-sm">Iluminación</button>
+        <button onclick="filtrarCategoria('Cintas y Neón')" class="bg-slate-800 hover:bg-slate-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors border border-slate-600 shadow-sm">Cintas y Neón</button>
+        <button onclick="filtrarCategoria('Domótica')" class="bg-slate-800 hover:bg-slate-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors border border-slate-600 shadow-sm">Domótica</button>
+        <button onclick="filtrarCategoria('Seguridad')" class="bg-slate-800 hover:bg-slate-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors border border-slate-600 shadow-sm">Seguridad</button>
+        <button onclick="filtrarCategoria('Cartelería')" class="bg-slate-800 hover:bg-slate-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors border border-slate-600 shadow-sm">Cartelería</button>
+        <button onclick="filtrarCategoria('Electrónica')" class="bg-slate-800 hover:bg-slate-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors border border-slate-600 shadow-sm">Electrónica</button>
+        <button onclick="filtrarCategoria('Kits')" class="bg-orange-600 hover:bg-orange-500 text-white font-semibold py-2 px-4 rounded-lg transition-colors border border-orange-400 shadow-sm">Kits</button>
+        <button onclick="filtrarCategoria('Instalaciones')" class="bg-green-700 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors border border-green-500 shadow-sm">Instalaciones</button>
+    </div>
+
+    <div id="catalogo" class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        </div>
+
+    <a id="btn-carrito" href="#" target="_blank" class="hidden fixed bottom-6 right-6 bg-green-500 text-white px-6 py-4 rounded-full shadow-2xl hover:bg-green-600 transition transform hover:scale-105 z-50 font-bold text-lg flex items-center gap-2">
+        🛒 Enviar Pedido
+    </a>
+
+    <script src="productos.js"></script>
+
+    <script>
+        const contenedor = document.getElementById('catalogo');
+        const inputBuscador = document.getElementById('buscador');
+        let carrito = []; 
+
+        function quitarAcentos(texto) {
+            return texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        }
+
+        function filtrarCategoria(cat) {
+            inputBuscador.value = ""; 
+            if (cat === 'Todas') {
+                mostrarProductos(productos);
+            } else {
+                const filtrados = productos.filter(p => p.categoria === cat);
+                mostrarProductos(filtrados);
+            }
+        }
+
+        function agregarAlCarrito(nombre, precio) {
+            carrito.push({ nombre, precio });
+            actualizarBotonCarrito();      
+        }
+
+        function actualizarBotonCarrito() {
+            const btn = document.getElementById('btn-carrito');
+            if (carrito.length > 0) {
+                let total = 0;
+                let textoMensaje = "Hola Pablo! Quiero hacer este pedido de Electro LED:%0A%0A";
+                
+                carrito.forEach(item => {
+                    total += item.precio;
+                    textoMensaje += `- ${item.nombre} ($${item.precio})%0A`;
+                });
+                
+                textoMensaje += `%0A*Total estimado: $${total}*%0A%0A¿Tenés stock para coordinar?`;
+                
+                btn.innerHTML = `🛒 Enviar Pedido (${carrito.length}) - $${total}`;
+                btn.href = `https://wa.me/5492645725220?text=${textoMensaje}`;
+                btn.classList.remove('hidden');
+            } else {
+                btn.classList.add('hidden');
+            }
+        }
+
+        function mostrarProductos(lista) {
+            contenedor.innerHTML = ''; 
+            if(lista.length === 0) {
+                contenedor.innerHTML = '<p class="text-center col-span-3 text-gray-400 mt-10">No se encontraron productos en esta sección.</p>';
+                return;
+            }
+
+            lista.forEach(p => {
+                contenedor.innerHTML += `
+                    <div class="bg-gray-800 rounded-lg shadow-md overflow-hidden p-4 border-b-4 border-blue-500 flex flex-col justify-between transition-all hover:border-blue-400">
+                        <div>
+                            <img src="${p.imagen}" class="w-full h-64 object-contain bg-white rounded-lg p-2 transition-transform duration-300 hover:scale-110" alt="${p.nombre}">
+                            <div class="mt-4">
+                                <span class="text-xs font-bold text-blue-500 uppercase">${p.categoria}</span>
+                                <h2 class="text-xl font-bold text-white">${p.nombre}</h2>
+                                <p class="text-gray-300 text-sm mt-1">${p.descripcion || ''}</p>
+                            </div>
+                        </div>
+                        <div class="mt-6 flex justify-between items-center">
+                            <span class="text-2xl font-bold text-green-400">$${p.precio}</span>
+                            <button onclick="agregarAlCarrito('${p.nombre}', ${p.precio})" 
+                               class="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-bold hover:bg-blue-500 transition shadow-lg">
+                               + Sumar
+                            </button>
+                        </div>
+                    </div>`;
+            });
+        }
+
+        mostrarProductos(productos);
+
+        inputBuscador.addEventListener('keyup', (e) => {
+            const textoBusqueda = quitarAcentos(e.target.value.toLowerCase());
+            const filtrados = productos.filter(p => {
+                const nombreLimpio = quitarAcentos(p.nombre.toLowerCase());
+                const catLimpia = quitarAcentos(p.categoria.toLowerCase());
+                return nombreLimpio.includes(textoBusqueda) || catLimpia.includes(textoBusqueda);
+            });
+            mostrarProductos(filtrados);
+        });
+    </script>
+</body>
+</html>
