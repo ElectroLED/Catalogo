@@ -91,24 +91,38 @@ const productos = [
         descripcion: "Manejá TV y Aire desde el celu. Incluye sensor TyH."
     },
     {
-        nombre: "Lámpara Dicroica LED 7W",
+        nombre: "Lámpara Dicroica LED 7W Fría",
         categoria: "Iluminación",
         precio: 3000,
         imagen: "https://i.postimg.cc/QddQ1nVj/79325865268e032b91da5c9-71455258-c29897bc24c4fadfab17734100975129-1024-1024.webp",
         descripcion: "Iluminación eficiente y duradera."
     },
     {
-        nombre: "Reflector LED 50W Exterior",
+        nombre: "Lámpara Dicroica LED 7W Cálida",
         categoria: "Iluminación",
-        precio: 14500,
-        imagen: "https://i.postimg.cc/Hx9nSdh7/28500389268e00224e551a9-64826147-dfe610496d3f25afa917733700962966-1024-1024.webp",
-        descripcion: "Resistente al agua, ideal para patios y frentes."
+        precio: 3000,
+        imagen: "https://i.postimg.cc/QddQ1nVj/79325865268e032b91da5c9-71455258-c29897bc24c4fadfab17734100975129-1024-1024.webp",
+        descripcion: "Iluminación eficiente y duradera."
     },
     {
-        nombre: "Panel LED Montar Redondo 24W",
+        nombre: "Reflector LED RGB SMART 30W Exterior",
+        categoria: "Iluminación",
+        precio: 69000,
+        imagen: "https://i.postimg.cc/Qdv47pgg/D-NQ-NP-2X-752136-MLA99443028144-112025-F.webp",
+        descripcion: "Resistente al agua, ideal para decorar con colores arboles, patios y frentes. Control por APP, programable y dimerible. Apto para manejar con Google Home o Alexa"
+    },
+    {
+        nombre: "Panel LED Montar Redondo 24W Fría",
         categoria: "Iluminación",
         precio: 22587,
         imagen: "https://i.postimg.cc/dVdh7bKn/D-NQ-NP-2X-622656-MLA95390274124-102025-F.webp",
+        descripcion: "Plafón de aplicar de 30cm de diámetro."
+    },
+    {
+        nombre: "Panel LED Montar Redondo 24W Cálido",
+        categoria: "Iluminación",
+        precio: 22587,
+        imagen: "https://i.postimg.cc/jqwn0wk3/D-NQ-NP-2X-891985-MLA44848664792-022021-F.webp",
         descripcion: "Plafón de aplicar de 30cm de diámetro."
     },
     {
@@ -152,6 +166,76 @@ const productos = [
         precio: 6200,
         imagen: "https://i.postimg.cc/sDZyXnDG/23732661169affa917a55b7-50518846-a7af8e257a5b11b04a17734068674640-1024-1024.webp",
         descripcion: "Ideal para puertas ventanas y portones. Notificaciones automáticas: notificaciones inmediatas a su teléfono cuando se abre o cierra una puerta o ventana para mantenerlo mantienen informado todo el tiempo."
+    },
+    {
+        nombre: "TECLA SMART 1 punto Black vidrio táctil",
+        categoria: "Domótica",
+        precio: 39700,
+        imagen: "https://i.postimg.cc/25WFvMTq/C-TWSN-1CH-para-web-3-11zon.webp",
+        descripcion: "Control de voz para encender y apagar hasta 1 luz de manera fácil y sencilla. Te permite ahorrar energia electrica programando el encendido y apagado de las luces cuando desees"
+    },
+    {
+        nombre: "TECLA SMART 2 puntos Black vidrio táctil",
+        categoria: "Domótica",
+        precio: 39999,
+        imagen: "https://i.postimg.cc/6577yRMT/C-TWSN-2CH-web-5-11zon.webp",
+        descripcion: "Control de voz para encender y apagar hasta 2 luces de manera fácil y sencilla. Te permite ahorrar energia electrica programando el encendido y apagado de las luces cuando desees"
+    },
+    {
+        nombre: "TECLA SMART 3 puntos Black vidrio táctil",
+        categoria: "Domótica",
+        precio: 44300,
+        imagen: "https://i.postimg.cc/7hjZgsKG/C-TWSN-3CH-web-6-11zon.webp",
+        descripcion: "Control de voz para encender y apagar hasta 3 luces de manera fácil y sencilla. Te permite ahorrar energia electrica programando el encendido y apagado de las luces cuando desees"
+    },
+    {
+        nombre: "BAJO ALACENA CON TECLA 09W FRIO",
+        categoria: "Iluminación",
+        precio: 11200,
+        imagen: "https://i.postimg.cc/4dzD8847/D-NQ-NP-2X-703692-MLA99464757366-112025-F.webp",
+        descripcion: "60cm 720lm Ideal para muebles del hogar, con tecla de encendido incluida"
+    },
+    {
+        nombre: "BAJO ALACENA CON TECLA 09W CALIDO",
+        categoria: "Iluminación",
+        precio: 11200,
+        imagen: "https://i.postimg.cc/4dzD8847/D-NQ-NP-2X-703692-MLA99464757366-112025-F.webp",
+        descripcion: "60cm 720lm Ideal para muebles del hogar, con tecla de encendido incluida"
+    },
+    {
+        nombre: "TIRA RGB PIXEL led 5050 interior",
+        categoria: "Cintas y Neón",
+        precio: 30000,
+        imagen: "https://i.postimg.cc/hv0fqbsC/Chat-GPT-Image-14-mar-2026-02-06-08.png",
+        descripcion: "Rollo pixel ws2811 12VOLT 60led xmetro ideal para pantallas led. y escritorios o habitaciones GAMER. 5 metros de largo. Rollo de 12v. Chip Ws2811. 60 Led por metro. Consume 6Amper (90W)"
+    },
+    {
+        nombre: "Controlodora para tira Magic PIXEL LED 358 efectos",
+        categoria: "Domótica",
+        precio: 11000,
+        imagen: "https://i.postimg.cc/rmN8dy4k/D-NQ-NP-2X-721878-MLA71479579956-092023-F.webp",
+        descripcion: " mando a distancia para la WS2801 IC RGB sueño Color luz tira Es regulador alejado sin hilos del RF, de tamaño mini pero para el control de larga distancia. Número máximo de píxeles de control: respecto de 1000píxeles (IC chips), WS2801 tira luces con medidor de 32chips, puede controlar 64meters para arriba. Se realiza más de 300 patrones y puede ajustar el brillo de luz así"
+    },
+    {
+        nombre: "CONTROL RGB 24 BOTONES 12v clasico",
+        categoria: "Cintas y Neón",
+        precio: 7000,
+        imagen: "https://i.postimg.cc/cCtX9CBD/D-NQ-NP-2X-926972-MLA50068513911-052022-F.webp",
+        descripcion: "La controladora para tiras RGB reconocida por su calidad y durabilidad. Este dispositivo cuenta con un control infrarrojo de 24 botones que te permitirá manejar a distancia los 16 colores disponibles y los 4 efectos de luz que ofrece. Además, podrás regular la velocidad de los efectos y la intensidad de la luz a tu gusto, lo que te permitirá crear el ambiente perfecto para cada ocasión. El modelo CTRL-IR24 está fabricado en PVC"
+    },
+    {
+        nombre: "CAMARA SEGURIDAD 3MP WIFI AUDIO GIRO 360° IR 10M SD",
+        categoria: "Seguridad",
+        precio: 39000,
+        imagen: "https://i.postimg.cc/zf9jL8rn/D-NQ-NP-2X-747104-MLA108589866747-032026-F.webp",
+        descripcion: "La cámara Baby Cam ofrece una solución de vigilancia inteligente para interiores, ideal para hogares con bebés o personas mayores. Gracias a su conectividad Wi-Fi y compatibilidad con las apps Tuya Smart y Smart Life, permite monitoreo remoto desde el celular con audio bidireccional y alertas por detección de movimiento."
+    },
+    {
+        nombre: "SENSOR TUYA DE TEMPERATURA Y HUMEDAD CON DISPLAY ZIGBEE",
+        categoria: "Domótica",
+        precio: 39400,
+        imagen: "https://i.postimg.cc/k4sB0vfb/D-NQ-NP-2X-788360-MLA94029731235-102025-F.webp",
+        descripcion: "Sensor Zigbee de Temperatura, Humedad y Pantalla Digital. El modelo FT-WL-TH05Z es un sensor para interiores que mide temperatura y humedad, e incluye pantalla digital para visualizar los datos en el momento. Funciona con tecnología Zigbee 3.0 y requiere una unidad central compatible para su integración con sistemas de automatización del hogar."
     },
     {
         nombre: "Fuente de Alimentación enchufable 12V 1A",
