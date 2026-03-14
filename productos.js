@@ -91,14 +91,21 @@ const productos = [
         descripcion: "Manejá TV y Aire desde el celu. Incluye sensor TyH."
     },
     {
-        nombre: "Lámpara Dicroica LED 7W Fría",
+        nombre: "Lámpara Dicroica LED 7W Fría 6500°K",
         categoria: "Iluminación",
         precio: 3000,
         imagen: "https://i.postimg.cc/QddQ1nVj/79325865268e032b91da5c9-71455258-c29897bc24c4fadfab17734100975129-1024-1024.webp",
         descripcion: "Iluminación eficiente y duradera."
     },
     {
-        nombre: "Lámpara Dicroica LED 7W Cálida",
+        nombre: "Lámpara Dicroica LED 7W Neutra 3000°K",
+        categoria: "Iluminación",
+        precio: 3000,
+        imagen: "https://i.postimg.cc/QddQ1nVj/79325865268e032b91da5c9-71455258-c29897bc24c4fadfab17734100975129-1024-1024.webp",
+        descripcion: "Iluminación eficiente y duradera."
+    },
+    {
+        nombre: "Lámpara Dicroica LED 7W Cálida 3000°K",
         categoria: "Iluminación",
         precio: 3000,
         imagen: "https://i.postimg.cc/QddQ1nVj/79325865268e032b91da5c9-71455258-c29897bc24c4fadfab17734100975129-1024-1024.webp",
@@ -126,6 +133,41 @@ const productos = [
         descripcion: "Plafón de aplicar de 30cm de diámetro."
     },
     {
+        nombre: "Panel LED redondo de 17cm, 18W 1620lm Frío De Embutir",
+        categoria: "Iluminación",
+        precio: 18587,
+        imagen: "https://i.postimg.cc/6qcvpmgh/D-NQ-NP-2X-684436-MLA78555899009-082024-F.webp",
+        descripcion: "Panel de led sin bordes, super angular con diseño innovador y atractivo. contiene clips ajustables diseñados para varios tamaños lo cual facilita su instalación. El rango ajustable del clip es 7.5 – 15 cm."
+    },
+    {
+        nombre: " Panel LED redondo de 22cm 24W. 2280lm Neutro De Embutir",
+        categoria: "Iluminación",
+        precio: 23500,
+        imagen: "https://i.postimg.cc/6qcvpmgh/D-NQ-NP-2X-684436-MLA78555899009-082024-F.webp",
+        descripcion: "Panel de led sin bordes, super angular con diseño innovador y atractivo. contiene clips ajustables diseñados para varios tamaños lo cual facilita su instalación. El rango ajustable del clip es 7.5 – 15 cm."
+    },
+    {
+        nombre: "Panel LED cuadrado de 17cmx17cm, 18W 1620lm Frío De Embutir",
+        categoria: "Iluminación",
+        precio: 22500,
+        imagen: "https://i.postimg.cc/VNN1xHWm/D-NQ-NP-2X-842525-MLA93862088550-102025-F.webp",
+        descripcion: "Panel de led sin bordes, super angular con diseño innovador y atractivo. contiene clips ajustables diseñados para varios tamaños lo cual facilita su instalación. El rango ajustable del clip es 7.5 – 15 cm."
+    },
+    {
+        nombre: " Perfil de Aluminio Esquinero 16x16mm Blanco, Cover Curvo Opal Blanco x2m",
+        categoria: "Iluminación",
+        precio: 8000,
+        imagen: "https://i.postimg.cc/fRCS7pRG/Chat-GPT-Image-14-mar-2026-12-58-11.png",
+        descripcion: "Largo: 2 mtrs. Ancho: 16 mm. Alto: 16 mm. Peso: 226 gr. Instalación: Superficie. Material: Aluminio. Color: Blanco. Tapa: Blanco opal. Flexible: No. Acabado: Anodizado. Uso: Interior / Exterior"
+    },
+    {
+        nombre: " Perfil de Aluminio Flat 13x7mm Anodizado Opal Blanco x2m",
+        categoria: "Iluminación",
+        precio: 8000,
+        imagen: "https://i.postimg.cc/fLcNmnwj/D-NQ-NP-2X-785021-MLA106381106072-022026-F.webp",
+        descripcion: "Este el perfil más compacto del catálogo. Con solo 13 mm de ancho, es un modelo Ultra Slim diseñado para instalaciones donde se necesita máxima discreción y poco espacio. Ideal para tiras LED de 8 mm o 10 mm."
+    },
+    {
         nombre: "Cámara Smart WIFI Interior 1080P",
         categoria: "Seguridad",
         precio: 40900,
@@ -147,11 +189,25 @@ const productos = [
         descripcion: "Este dispositivo te permite grabar videos en alta calidad de lo que ocurre en tu hogar o negocio. Con una resolución de 720p, podrás revisar todos los videos con gran detalle y nitidez.."
     },
     {
-        nombre: "Cerradura Biométrica Smart WIFI",
+        nombre: "CAMARA SEGURIDAD 3MP WIFI AUDIO GIRO 360° IR 10M SD",
         categoria: "Seguridad",
-        precio: 160000,
+        precio: 39000,
+        imagen: "https://i.postimg.cc/zf9jL8rn/D-NQ-NP-2X-747104-MLA108589866747-032026-F.webp",
+        descripcion: "La cámara Baby Cam ofrece una solución de vigilancia inteligente para interiores, ideal para hogares con bebés o personas mayores. Gracias a su conectividad Wi-Fi y compatibilidad con las apps Tuya Smart y Smart Life, permite monitoreo remoto desde el celular con audio bidireccional y alertas por detección de movimiento."
+    },
+    {
+        nombre: "Cerradura Biométrica Smart WIFI c/Camara",
+        categoria: "Seguridad",
+        precio: 169000,
         imagen: "https://i.postimg.cc/tgrWTR2D/106837583068e0d43a2d8346-51399007-63ea19aa4a020b5ce217734110937818-1024-1024.webp",
-        descripcion: "Apertura por huella, clave o App. Diseño en vidrio templado."
+        descripcion: "Combina funcionalidad avanzada, seguridad y un diseño moderno para puertas de vidrio templado, madera o UPVC. Múltiples métodos de desbloqueo: Huellas dactilares: Reconocimiento rápido y seguro en solo 0,3 segundos. Contraseña: Compatible con contraseñas de 6-8 dígitos y función anti-snooping para mayor privacidad. Tarjetas IC: Registra y utiliza tarjetas inteligentes para un acceso rápido y práctico. Llaves mecánicas. Control remoto: Gestión y desbloqueo a través de la aplicación Smart Life."
+    },
+    {
+        nombre: "Timbre SMART WIFI con cámara",
+        categoria: "Domótica",
+        precio: 40000,
+        imagen: "https://i.postimg.cc/sg5Rsvf5/191651422368d1e570614699-81010179-4b1c9c7720e1c9008017734073846934-1024-1024.webp",
+        descripcion: "Timbre con cámara de video inalámbrica admite WiFi de 2,4G, trabaja con la App Smart Life, tiene alta resolución de 480P, que le presenta imágenes y videos más claros y más detalles. Cuenta con audio bidireccional, con micrófono incorporado, que le permite hablar y ver a sus visitantes en cualquier momento y en cualquier lugar. Batería 800mA"
     },
     {
         nombre: "Sensor de Movimiento 360°",
@@ -224,13 +280,6 @@ const productos = [
         descripcion: "La controladora para tiras RGB reconocida por su calidad y durabilidad. Este dispositivo cuenta con un control infrarrojo de 24 botones que te permitirá manejar a distancia los 16 colores disponibles y los 4 efectos de luz que ofrece. Además, podrás regular la velocidad de los efectos y la intensidad de la luz a tu gusto, lo que te permitirá crear el ambiente perfecto para cada ocasión. El modelo CTRL-IR24 está fabricado en PVC"
     },
     {
-        nombre: "CAMARA SEGURIDAD 3MP WIFI AUDIO GIRO 360° IR 10M SD",
-        categoria: "Seguridad",
-        precio: 39000,
-        imagen: "https://i.postimg.cc/zf9jL8rn/D-NQ-NP-2X-747104-MLA108589866747-032026-F.webp",
-        descripcion: "La cámara Baby Cam ofrece una solución de vigilancia inteligente para interiores, ideal para hogares con bebés o personas mayores. Gracias a su conectividad Wi-Fi y compatibilidad con las apps Tuya Smart y Smart Life, permite monitoreo remoto desde el celular con audio bidireccional y alertas por detección de movimiento."
-    },
-    {
         nombre: "SENSOR TUYA DE TEMPERATURA Y HUMEDAD CON DISPLAY ZIGBEE",
         categoria: "Domótica",
         precio: 39400,
@@ -301,6 +350,20 @@ const productos = [
         descripcion: "Fuente estable para tiras LED y cámaras."
     },
     {
+        nombre: "Lámpara LED E27 7W, Blanco Frío 6000K A60",
+        categoria: "Iluminacion",
+        precio: 2000,
+        imagen: "https://i.postimg.cc/d3P76YcM/D-NQ-NP-2X-827985-MLA90379748426-082025-F.webp",
+        descripcion: "PRODUCTO: Lampara led bulbo 7w = 60w. Tono: Frio/ 6000°k. Lumenes (Intensidad de luz): 480lm. Apertura: 180°. Zócalo: E27. Conexión: 220v. Material: PVC. Diametro 6cm / largo 11cm"
+    },
+    {
+        nombre: "Lámpara LED E27 7W, Blanco Cálido 3000K A60",
+        categoria: "Iluminacion",
+        precio: 2000,
+        imagen: "https://i.postimg.cc/d3P76YcM/D-NQ-NP-2X-827985-MLA90379748426-082025-F.webp",
+        descripcion: "PRODUCTO: Lampara led bulbo 7w = 60w. Tono: Cálido/ 3000°k. Lumenes (Intensidad de luz): 480lm. Apertura: 180°. Zócalo: E27. Conexión: 220v. Material: PVC. Diametro 6cm / largo 11cm"
+    },
+    {
         nombre: "LETRAS COLORES. SE PUEDE AGREGAR LUZ",
         categoria: "Cartelería",
         precio: 75000,
@@ -364,6 +427,13 @@ const productos = [
         precio: 16900,
         imagen: "https://i.postimg.cc/Rhy8bMTR/Chat-GPT-Image-13-mar-2026-07-36-01-p-m.png",
         descripcion: "Combo listo para instalar: incluye 3 metros de neón (color a elección) y fuente."
+    },
+    {
+        nombre: "Kit Perfil de aluminio con difusor x2m + Tira led RGB x 2m",
+        categoria: "Kits",
+        precio: 13000,
+        imagen: "https://i.postimg.cc/SxP2t8cg/Chat-GPT-Image-14-mar-2026-12-54-50.png",
+        descripcion: "Combo para sumar de a 2metros, IDEAL para SETUP GAMER o cielos rasos."
     },
     {
         nombre: "Kit Seguridad Hogar Inteligente",
