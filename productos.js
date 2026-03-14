@@ -72,7 +72,7 @@ const productos = [
     {
         nombre: "Módulo Smart Switch Wifi",
         categoria: "Domótica",
-        precio: 17000,
+        precio: 18900,
         imagen: "https://i.postimg.cc/wjMN7ybs/904336441699da80ecdf9d4-43049716-36c3f002e6215bfd2617731817580192-1024-1024.webp",
         descripcion: "Controlá tus luces desde el celular con Smart Life."
     },
@@ -86,7 +86,7 @@ const productos = [
     {
         nombre: "Control Remoto Smart WiFi+IR Universal",
         categoria: "Domótica",
-        precio: 15000,
+        precio: 25000,
         imagen: "https://i.postimg.cc/gkBX9ttz/28170115768e6d494be8d01-62979572-057f2f2fa0547965b917734048990276-1024-1024.webp",
         descripcion: "Manejá TV y Aire desde el celu. Incluye sensor TyH."
     },
@@ -184,16 +184,16 @@ const productos = [
     {
         nombre: "Cámara Smart WiFi Exterior",
         categoria: "Seguridad",
-        precio: 67000,
+        precio: 87000,
         imagen: "https://i.postimg.cc/g0LH0zzn/D-NQ-NP-2X-898718-MLA95400691792-102025-F.webp",
         descripcion: "Este dispositivo te permite grabar videos en alta calidad de lo que ocurre en tu hogar o negocio. Con una resolución de 720p, podrás revisar todos los videos con gran detalle y nitidez.."
     },
     {
         nombre: "CAMARA SEGURIDAD 3MP WIFI AUDIO GIRO 360° IR 10M SD",
         categoria: "Seguridad",
-        precio: 39000,
+        precio: 52850,
         imagen: "https://i.postimg.cc/zf9jL8rn/D-NQ-NP-2X-747104-MLA108589866747-032026-F.webp",
-        descripcion: "La cámara Baby Cam ofrece una solución de vigilancia inteligente para interiores, ideal para hogares con bebés o personas mayores. Gracias a su conectividad Wi-Fi y compatibilidad con las apps Tuya Smart y Smart Life, permite monitoreo remoto desde el celular con audio bidireccional y alertas por detección de movimiento."
+        descripcion: "Cámara de vigilancia inteligente 3MP para interiores con cobertura total 360°. Ideal para seguridad del hogar, monitoreo de bebés o comercios. Compatible con Tuya Smart y Smart Life, cuenta con visión nocturna, audio bidireccional y alertas automáticas al celular por detección de movimiento."
     },
     {
         nombre: "Cerradura Biométrica Smart WIFI c/Camara",
@@ -212,14 +212,14 @@ const productos = [
     {
         nombre: "Sensor de Movimiento 360°",
         categoria: "Seguridad",
-        precio: 6200,
+        precio: 21000,
         imagen: "https://i.postimg.cc/KYn8zmF7/sensor1.webp",
         descripcion: "Ideal para pasillos y ahorro de energía."
     },
     {
         nombre: "Sensor de apertura Smart Para Puertas Y Ventanas Magnetico",
         categoria: "Seguridad",
-        precio: 6200,
+        precio: 20000,
         imagen: "https://i.postimg.cc/sDZyXnDG/23732661169affa917a55b7-50518846-a7af8e257a5b11b04a17734068674640-1024-1024.webp",
         descripcion: "Ideal para puertas ventanas y portones. Notificaciones automáticas: notificaciones inmediatas a su teléfono cuando se abre o cierra una puerta o ventana para mantenerlo mantienen informado todo el tiempo."
     },
@@ -436,16 +436,23 @@ const productos = [
         descripcion: "Combo para sumar de a 2metros, IDEAL para SETUP GAMER o cielos rasos."
     },
     {
-        nombre: "Kit Seguridad Hogar Inteligente",
+        nombre: "KIT SEGURIDA INTELIGENTE EXTERIOR Y LLUVIA- ELECTRO LED",
         categoria: "Kits",
-        precio: 214900,
+        precio: 265000,
         imagen: "https://i.postimg.cc/NMb2xSbK/Chat-GPT-Image-13-mar-2026-06-58-24-p-m.png",
-        descripcion: "Cerradura Biométrica + Cámara 360 + Sensores. Protección total."
+        descripcion: "Protección total y control desde tu celular. Incluye: 1 Cerradura Biométrica Smart (Huella/App), 1 Cámara WiFi 360° con audio, 1 Sensor de Movimiento y 1 Sensor de Apertura de puertas/ventanas. ¡Todo gestionado desde la misma App!"
+    },
+    {
+        nombre: "KIT SEGURIDAD HOGAR INTELIGENTE - ELECTRO LED",
+        categoria: "Kits",
+        precio: 99900,
+        imagen: "https://i.postimg.cc/1RdsNQ1n/Chat-GPT-Image-14-mar-2026-14-32-02.png",
+        descripcion: "Protección total y control desde tu celular. Incluye: 1 Camara de vigilancia 360° SMART, 1 Switch smart, 1 Sensor de Movimiento y 1 Sensor de Apertura de puertas/ventanas. ¡Todo gestionado desde la misma App!"
     },
     {
         nombre: "Kit Tira LED RGB Smart WiFi",
         categoria: "Kits",
-        precio: 41500,
+        precio: 44500,
         imagen: "https://i.postimg.cc/nrJ9KmyZ/Chat-GPT-Image-13-mar-2026-07-27-21-p-m.png",
         descripcion: "5m tira RGB + Fuente + Controladora WiFi. ¡Manejalo desde el celu!"
     },
