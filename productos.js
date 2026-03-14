@@ -217,6 +217,48 @@ const productos = [
         descripcion: "Fuente estable para tiras LED y cámaras."
     },
     {
+        nombre: "LETRAS COLORES. SE PUEDE AGREGAR LUZ",
+        categoria: "Cartelería",
+        precio: 75000,
+        imagen: "https://i.postimg.cc/2SfhdsfZ/Whats-App-Image-2026-03-13-at-22-11-28.jpg",
+        descripcion: "Diseños a medida. Impresion 3d con opcion en PLA,ABS, PETS o policarbonato."
+    },
+    {
+        nombre: "ARCOIRIS NEON EJEMPLO",
+        categoria: "Cartelería",
+        precio: 70000,
+        imagen: "https://i.postimg.cc/T24cbN16/Whats-App-Image-2026-03-13-at-22-14-47-(1).jpg",
+        descripcion: "Diseños a medida. Colores y tamaños sujeeeto a modificacion de precio"
+    },
+    {
+        nombre: "CERVEZ NEON ACRILICO EJEMPLO",
+        categoria: "Cartelería",
+        precio: 65000,
+        imagen: "https://i.postimg.cc/sX1hDyps/Whats-App-Image-2026-03-13-at-22-19-02.jpg",
+        descripcion: "Diseños a medida. Colores y tamaños sujeeeto a modificacion de precio"
+    },
+    {
+        nombre: "LETRAS IMPRESION 3D CON FONDO PARA LUCES Y DIFUSOR",
+        categoria: "Cartelería",
+        precio: 60000,
+        imagen: "https://i.postimg.cc/NjJmHpQh/Whats-App-Image-2026-03-13-at-22-26-06.jpg",
+        descripcion: "Diseños a medida. Impresion 3d con opcion en PLA,ABS, PETS o policarbonato."
+    },
+    {
+        nombre: "Balde Cerveza",
+        categoria: "Cartelería",
+        precio: 60000,
+        imagen: "https://i.postimg.cc/fy8Trq2j/Whats-App-Image-2026-03-13-at-22-28-00.jpg",
+        descripcion: "Diseños a medida. Precio por letra"
+    },
+    {
+        nombre: "TC 3D IMPRESO EN PLA",
+        categoria: "Cartelería",
+        precio: 30000,
+        imagen: "https://i.postimg.cc/zXLrNf39/Whats-App-Image-2026-03-13-at-22-26-06-(1).jpg",
+        descripcion: "Diseños a medida. Impresion 3d con opcion en PLA,ABS, PETS o policarbonato."
+    },
+    {
         nombre: "Cable RGB 0.5mm (por metro)",
         categoria: "Electrónica",
         precio: 900,
