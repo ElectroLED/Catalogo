@@ -95,28 +95,28 @@ const productos = [
         categoria: "Iluminación",
         precio: 3000,
         imagen: "https://i.postimg.cc/QddQ1nVj/79325865268e032b91da5c9-71455258-c29897bc24c4fadfab17734100975129-1024-1024.webp",
-        descripcion: "Iluminación eficiente y duradera."
+        descripcion: "Lámpara dicroica LED de 7W. Excelente disipación de calor y bajo consumo. Ideal para resaltar ambientes, livings y comercios. Vida útil prolongada."
     },
     {
         nombre: "Lámpara Dicroica LED 7W Neutra 3000°K",
         categoria: "Iluminación",
         precio: 3000,
         imagen: "https://i.postimg.cc/QddQ1nVj/79325865268e032b91da5c9-71455258-c29897bc24c4fadfab17734100975129-1024-1024.webp",
-        descripcion: "Iluminación eficiente y duradera."
+        descripcion: "Lámpara dicroica LED de 7W. Excelente disipación de calor y bajo consumo. Ideal para resaltar ambientes, livings y comercios. Vida útil prolongada."
     },
     {
         nombre: "Lámpara Dicroica LED 7W Cálida 3000°K",
         categoria: "Iluminación",
         precio: 3000,
         imagen: "https://i.postimg.cc/QddQ1nVj/79325865268e032b91da5c9-71455258-c29897bc24c4fadfab17734100975129-1024-1024.webp",
-        descripcion: "Iluminación eficiente y duradera."
+        descripcion: "Lámpara dicroica LED de 7W. Excelente disipación de calor y bajo consumo. Ideal para resaltar ambientes, livings y comercios. Vida útil prolongada."
     },
     {
         nombre: "Reflector LED RGB SMART 30W Exterior",
         categoria: "Iluminación",
         precio: 69000,
         imagen: "https://i.postimg.cc/Qdv47pgg/D-NQ-NP-2X-752136-MLA99443028144-112025-F.webp",
-        descripcion: "Resistente al agua, ideal para decorar con colores arboles, patios y frentes. Control por APP, programable y dimerible. Apto para manejar con Google Home o Alexa"
+        descripcion: "Resistente al agua, ideal para decorar con colores árboles, patios y frentes. Control por APP, programable y dimerizable. Apto para manejar con Google Home o Alexa."
     },
     {
         nombre: "Panel LED Montar Redondo 24W Fría",
@@ -137,31 +137,31 @@ const productos = [
         categoria: "Iluminación",
         precio: 18587,
         imagen: "https://i.postimg.cc/6qcvpmgh/D-NQ-NP-2X-684436-MLA78555899009-082024-F.webp",
-        descripcion: "Panel de led sin bordes, super angular con diseño innovador y atractivo. contiene clips ajustables diseñados para varios tamaños lo cual facilita su instalación. El rango ajustable del clip es 7.5 – 15 cm."
+        descripcion: "Panel de led sin bordes, super angular con diseño innovador y atractivo. Contiene clips ajustables diseñados para varios tamaños lo cual facilita su instalación. El rango ajustable del clip es 7.5 – 15 cm."
     },
     {
-        nombre: " Panel LED redondo de 22cm 24W. 2280lm Neutro De Embutir",
+        nombre: "Panel LED redondo de 22cm 24W. 2280lm Neutro De Embutir",
         categoria: "Iluminación",
         precio: 23500,
         imagen: "https://i.postimg.cc/6qcvpmgh/D-NQ-NP-2X-684436-MLA78555899009-082024-F.webp",
-        descripcion: "Panel de led sin bordes, super angular con diseño innovador y atractivo. contiene clips ajustables diseñados para varios tamaños lo cual facilita su instalación. El rango ajustable del clip es 7.5 – 15 cm."
+        descripcion: "Panel de led sin bordes, super angular con diseño innovador y atractivo. Contiene clips ajustables diseñados para varios tamaños lo cual facilita su instalación. El rango ajustable del clip es 7.5 – 15 cm."
     },
     {
         nombre: "Panel LED cuadrado de 17cmx17cm, 18W 1620lm Frío De Embutir",
         categoria: "Iluminación",
         precio: 22500,
         imagen: "https://i.postimg.cc/VNN1xHWm/D-NQ-NP-2X-842525-MLA93862088550-102025-F.webp",
-        descripcion: "Panel de led sin bordes, super angular con diseño innovador y atractivo. contiene clips ajustables diseñados para varios tamaños lo cual facilita su instalación. El rango ajustable del clip es 7.5 – 15 cm."
+        descripcion: "Panel de led sin bordes, super angular con diseño innovador y atractivo. Contiene clips ajustables diseñados para varios tamaños lo cual facilita su instalación. El rango ajustable del clip es 7.5 – 15 cm."
     },
     {
-        nombre: " Perfil de Aluminio Esquinero 16x16mm Blanco, Cover Curvo Opal Blanco x2m",
+        nombre: "Perfil de Aluminio Esquinero 16x16mm Blanco, Cover Curvo Opal Blanco x2m",
         categoria: "Iluminación",
         precio: 8000,
         imagen: "https://i.postimg.cc/fRCS7pRG/Chat-GPT-Image-14-mar-2026-12-58-11.png",
-        descripcion: "Largo: 2 mtrs. Ancho: 16 mm. Alto: 16 mm. Peso: 226 gr. Instalación: Superficie. Material: Aluminio. Color: Blanco. Tapa: Blanco opal. Flexible: No. Acabado: Anodizado. Uso: Interior / Exterior"
+        descripcion: "Largo: 2 mtrs. Ancho: 16 mm. Alto: 16 mm. Peso: 226 gr. Instalación: Superficie. Material: Aluminio. Color: Blanco. Tapa: Blanco opal. Uso: Interior / Exterior."
     },
     {
-        nombre: " Perfil de Aluminio Flat 13x7mm Anodizado Opal Blanco x2m",
+        nombre: "Perfil de Aluminio Flat 13x7mm Anodizado Opal Blanco x2m",
         categoria: "Iluminación",
         precio: 8000,
         imagen: "https://i.postimg.cc/fLcNmnwj/D-NQ-NP-2X-785021-MLA106381106072-022026-F.webp",
@@ -186,28 +186,28 @@ const productos = [
         categoria: "Seguridad",
         precio: 87000,
         imagen: "https://i.postimg.cc/g0LH0zzn/D-NQ-NP-2X-898718-MLA95400691792-102025-F.webp",
-        descripcion: "Este dispositivo te permite grabar videos en alta calidad de lo que ocurre en tu hogar o negocio. Con una resolución de 720p, podrás revisar todos los videos con gran detalle y nitidez.."
+        descripcion: "Este dispositivo te permite grabar videos en alta calidad de lo que ocurre en tu hogar o negocio. Con una resolución de 720p, podrás revisar todos los videos con gran detalle y nitidez."
     },
     {
-        nombre: "CAMARA SEGURIDAD 3MP WIFI AUDIO GIRO 360° IR 10M SD",
+        nombre: "Cámara de Seguridad 3MP WIFI Audio Giro 360° IR 10M SD",
         categoria: "Seguridad",
         precio: 52850,
         imagen: "https://i.postimg.cc/zf9jL8rn/D-NQ-NP-2X-747104-MLA108589866747-032026-F.webp",
-        descripcion: "Cámara de vigilancia inteligente 3MP para interiores con cobertura total 360°. Ideal para seguridad del hogar, monitoreo de bebés o comercios. Compatible con Tuya Smart y Smart Life, cuenta con visión nocturna, audio bidireccional y alertas automáticas al celular por detección de movimiento."
+        descripcion: "Cámara de vigilancia inteligente 3MP para interiores con cobertura total 360°. Ideal para seguridad del hogar, monitoreo de bebés o comercios. Compatible con Tuya Smart y Smart Life, cuenta con visión nocturna, audio bidireccional y alertas automáticas."
     },
     {
-        nombre: "Cerradura Biométrica Smart WIFI c/Camara",
+        nombre: "Cerradura Biométrica Smart WIFI c/Cámara",
         categoria: "Seguridad",
         precio: 169000,
         imagen: "https://i.postimg.cc/tgrWTR2D/106837583068e0d43a2d8346-51399007-63ea19aa4a020b5ce217734110937818-1024-1024.webp",
-        descripcion: "Combina funcionalidad avanzada, seguridad y un diseño moderno para puertas de vidrio templado, madera o UPVC. Múltiples métodos de desbloqueo: Huellas dactilares: Reconocimiento rápido y seguro en solo 0,3 segundos. Contraseña: Compatible con contraseñas de 6-8 dígitos y función anti-snooping para mayor privacidad. Tarjetas IC: Registra y utiliza tarjetas inteligentes para un acceso rápido y práctico. Llaves mecánicas. Control remoto: Gestión y desbloqueo a través de la aplicación Smart Life."
+        descripcion: "Combina funcionalidad avanzada y diseño moderno. Múltiples métodos de desbloqueo: Huella dactilar (0,3 seg), Contraseña anti-snooping, Tarjetas IC magnéticas, Llaves mecánicas y Control remoto vía App Smart Life."
     },
     {
         nombre: "Timbre SMART WIFI con cámara",
         categoria: "Domótica",
         precio: 40000,
         imagen: "https://i.postimg.cc/sg5Rsvf5/191651422368d1e570614699-81010179-4b1c9c7720e1c9008017734073846934-1024-1024.webp",
-        descripcion: "Timbre con cámara de video inalámbrica admite WiFi de 2,4G, trabaja con la App Smart Life, tiene alta resolución de 480P, que le presenta imágenes y videos más claros y más detalles. Cuenta con audio bidireccional, con micrófono incorporado, que le permite hablar y ver a sus visitantes en cualquier momento y en cualquier lugar. Batería 800mA"
+        descripcion: "Timbre con cámara de video inalámbrica WiFi 2.4G. Trabaja con App Smart Life. Alta resolución 480P. Cuenta con audio bidireccional y micrófono incorporado para hablar y ver a sus visitantes en cualquier momento."
     },
     {
         nombre: "Sensor de Movimiento 360°",
@@ -217,74 +217,74 @@ const productos = [
         descripcion: "Ideal para pasillos y ahorro de energía."
     },
     {
-        nombre: "Sensor de apertura Smart Para Puertas Y Ventanas Magnetico",
+        nombre: "Sensor de apertura Smart Para Puertas Y Ventanas Magnético",
         categoria: "Seguridad",
         precio: 20000,
         imagen: "https://i.postimg.cc/sDZyXnDG/23732661169affa917a55b7-50518846-a7af8e257a5b11b04a17734068674640-1024-1024.webp",
-        descripcion: "Ideal para puertas ventanas y portones. Notificaciones automáticas: notificaciones inmediatas a su teléfono cuando se abre o cierra una puerta o ventana para mantenerlo mantienen informado todo el tiempo."
+        descripcion: "Ideal para puertas, ventanas y portones. Notificaciones automáticas e inmediatas a su teléfono cuando se abre o cierra para mantenerlo informado todo el tiempo."
     },
     {
         nombre: "TECLA SMART 1 punto Black vidrio táctil",
         categoria: "Domótica",
         precio: 39700,
         imagen: "https://i.postimg.cc/25WFvMTq/C-TWSN-1CH-para-web-3-11zon.webp",
-        descripcion: "Control de voz para encender y apagar hasta 1 luz de manera fácil y sencilla. Te permite ahorrar energia electrica programando el encendido y apagado de las luces cuando desees"
+        descripcion: "Control de voz para encender y apagar 1 luz. Te permite ahorrar energía eléctrica programando el encendido y apagado de las luces cuando desees."
     },
     {
         nombre: "TECLA SMART 2 puntos Black vidrio táctil",
         categoria: "Domótica",
         precio: 39999,
         imagen: "https://i.postimg.cc/6577yRMT/C-TWSN-2CH-web-5-11zon.webp",
-        descripcion: "Control de voz para encender y apagar hasta 2 luces de manera fácil y sencilla. Te permite ahorrar energia electrica programando el encendido y apagado de las luces cuando desees"
+        descripcion: "Control de voz para encender y apagar hasta 2 luces. Te permite ahorrar energía eléctrica programando el encendido y apagado."
     },
     {
         nombre: "TECLA SMART 3 puntos Black vidrio táctil",
         categoria: "Domótica",
         precio: 44300,
         imagen: "https://i.postimg.cc/7hjZgsKG/C-TWSN-3CH-web-6-11zon.webp",
-        descripcion: "Control de voz para encender y apagar hasta 3 luces de manera fácil y sencilla. Te permite ahorrar energia electrica programando el encendido y apagado de las luces cuando desees"
+        descripcion: "Control de voz para encender y apagar hasta 3 luces. Te permite ahorrar energía eléctrica programando el encendido y apagado."
     },
     {
         nombre: "BAJO ALACENA CON TECLA 09W FRIO",
         categoria: "Iluminación",
         precio: 11200,
         imagen: "https://i.postimg.cc/4dzD8847/D-NQ-NP-2X-703692-MLA99464757366-112025-F.webp",
-        descripcion: "60cm 720lm Ideal para muebles del hogar, con tecla de encendido incluida"
+        descripcion: "60cm 720lm. Ideal para muebles del hogar, con tecla de encendido incluida."
     },
     {
         nombre: "BAJO ALACENA CON TECLA 09W CALIDO",
         categoria: "Iluminación",
         precio: 11200,
         imagen: "https://i.postimg.cc/4dzD8847/D-NQ-NP-2X-703692-MLA99464757366-112025-F.webp",
-        descripcion: "60cm 720lm Ideal para muebles del hogar, con tecla de encendido incluida"
+        descripcion: "60cm 720lm. Ideal para muebles del hogar, con tecla de encendido incluida."
     },
     {
         nombre: "TIRA RGB PIXEL led 5050 interior",
         categoria: "Cintas y Neón",
         precio: 30000,
         imagen: "https://i.postimg.cc/hv0fqbsC/Chat-GPT-Image-14-mar-2026-02-06-08.png",
-        descripcion: "Rollo pixel ws2811 12VOLT 60led xmetro ideal para pantallas led. y escritorios o habitaciones GAMER. 5 metros de largo. Rollo de 12v. Chip Ws2811. 60 Led por metro. Consume 6Amper (90W)"
+        descripcion: "Rollo pixel ws2811 12VOLT 60led/m, ideal para pantallas led, escritorios o habitaciones GAMER. 5 metros de largo. Consume 6Amper (90W)."
     },
     {
-        nombre: "Controlodora para tira Magic PIXEL LED 358 efectos",
+        nombre: "Controladora para tira Magic PIXEL LED 358 efectos",
         categoria: "Domótica",
         precio: 11000,
         imagen: "https://i.postimg.cc/rmN8dy4k/D-NQ-NP-2X-721878-MLA71479579956-092023-F.webp",
-        descripcion: " mando a distancia para la WS2801 IC RGB sueño Color luz tira Es regulador alejado sin hilos del RF, de tamaño mini pero para el control de larga distancia. Número máximo de píxeles de control: respecto de 1000píxeles (IC chips), WS2801 tira luces con medidor de 32chips, puede controlar 64meters para arriba. Se realiza más de 300 patrones y puede ajustar el brillo de luz así"
+        descripcion: "Controlador RF inalámbrico de tamaño compacto para tiras LED Pixel (IC WS2811/WS2801). Permite controlar hasta 1000 píxeles a larga distancia. Incluye más de 300 efectos dinámicos preprogramados y ajuste de brillo, ideal para setups y cartelería."
     },
     {
-        nombre: "CONTROL RGB 24 BOTONES 12v clasico",
+        nombre: "CONTROL RGB 24 BOTONES 12v clásico",
         categoria: "Cintas y Neón",
         precio: 7000,
         imagen: "https://i.postimg.cc/cCtX9CBD/D-NQ-NP-2X-926972-MLA50068513911-052022-F.webp",
-        descripcion: "La controladora para tiras RGB reconocida por su calidad y durabilidad. Este dispositivo cuenta con un control infrarrojo de 24 botones que te permitirá manejar a distancia los 16 colores disponibles y los 4 efectos de luz que ofrece. Además, podrás regular la velocidad de los efectos y la intensidad de la luz a tu gusto, lo que te permitirá crear el ambiente perfecto para cada ocasión. El modelo CTRL-IR24 está fabricado en PVC"
+        descripcion: "Controladora para tiras RGB reconocida por su calidad. Cuenta con un control infrarrojo de 24 botones que te permitirá manejar a distancia 16 colores y 4 efectos de luz. Podrás regular la velocidad de los efectos y la intensidad."
     },
     {
         nombre: "SENSOR TUYA DE TEMPERATURA Y HUMEDAD CON DISPLAY ZIGBEE",
         categoria: "Domótica",
         precio: 39400,
         imagen: "https://i.postimg.cc/k4sB0vfb/D-NQ-NP-2X-788360-MLA94029731235-102025-F.webp",
-        descripcion: "Sensor Zigbee de Temperatura, Humedad y Pantalla Digital. El modelo FT-WL-TH05Z es un sensor para interiores que mide temperatura y humedad, e incluye pantalla digital para visualizar los datos en el momento. Funciona con tecnología Zigbee 3.0 y requiere una unidad central compatible para su integración con sistemas de automatización del hogar."
+        descripcion: "Sensor Zigbee de Temperatura, Humedad y Pantalla Digital. Para interiores, mide temperatura y humedad e incluye pantalla para visualizar los datos en el momento. Requiere unidad central compatible (Hub Zigbee)."
     },
     {
         nombre: "Fuente de Alimentación enchufable 12V 1A",
@@ -294,7 +294,7 @@ const productos = [
         descripcion: "Fuente estable para tiras LED y cámaras."
     },
     {
-        nombre: "Fuente de Alimentación enchutafle 12V 3A",
+        nombre: "Fuente de Alimentación enchufable 12V 3A",
         categoria: "Electrónica",
         precio: 9500,
         imagen: "https://i.postimg.cc/2SgrWGD0/FUENTE-PLASTICA-3A-INOLUX.jpg",
@@ -351,59 +351,59 @@ const productos = [
     },
     {
         nombre: "Lámpara LED E27 7W, Blanco Frío 6000K A60",
-        categoria: "Iluminacion",
+        categoria: "Iluminación",
         precio: 2000,
         imagen: "https://i.postimg.cc/d3P76YcM/D-NQ-NP-2X-827985-MLA90379748426-082025-F.webp",
-        descripcion: "PRODUCTO: Lampara led bulbo 7w = 60w. Tono: Frio/ 6000°k. Lumenes (Intensidad de luz): 480lm. Apertura: 180°. Zócalo: E27. Conexión: 220v. Material: PVC. Diametro 6cm / largo 11cm"
+        descripcion: "Lámpara led bulbo 7w = 60w. Tono: Frío / 6000°k. Lúmenes: 480lm. Apertura: 180°. Zócalo: E27. Conexión: 220v. Material: PVC."
     },
     {
         nombre: "Lámpara LED E27 7W, Blanco Cálido 3000K A60",
-        categoria: "Iluminacion",
+        categoria: "Iluminación",
         precio: 2000,
         imagen: "https://i.postimg.cc/d3P76YcM/D-NQ-NP-2X-827985-MLA90379748426-082025-F.webp",
-        descripcion: "PRODUCTO: Lampara led bulbo 7w = 60w. Tono: Cálido/ 3000°k. Lumenes (Intensidad de luz): 480lm. Apertura: 180°. Zócalo: E27. Conexión: 220v. Material: PVC. Diametro 6cm / largo 11cm"
+        descripcion: "Lámpara led bulbo 7w = 60w. Tono: Cálido / 3000°k. Lúmenes: 480lm. Apertura: 180°. Zócalo: E27. Conexión: 220v. Material: PVC."
     },
     {
         nombre: "LETRAS COLORES. SE PUEDE AGREGAR LUZ",
         categoria: "Cartelería",
         precio: 75000,
         imagen: "https://i.postimg.cc/2SfhdsfZ/Whats-App-Image-2026-03-13-at-22-11-28.jpg",
-        descripcion: "Diseños a medida. Impresion 3d con opcion en PLA,ABS, PETS o policarbonato."
+        descripcion: "Diseños a medida. Impresión 3D con opción en PLA, ABS, PETG o policarbonato."
     },
     {
-        nombre: "ARCOIRIS NEON EJEMPLO",
+        nombre: "ARCOIRIS NEÓN EJEMPLO",
         categoria: "Cartelería",
         precio: 70000,
         imagen: "https://i.postimg.cc/T24cbN16/Whats-App-Image-2026-03-13-at-22-14-47-(1).jpg",
-        descripcion: "Diseños a medida. Colores y tamaños sujeeeto a modificacion de precio"
+        descripcion: "Diseños a medida. Colores y tamaños sujetos a modificación de precio."
     },
     {
-        nombre: "CERVEZ NEON ACRILICO EJEMPLO",
+        nombre: "CERVEZA NEÓN ACRÍLICO EJEMPLO",
         categoria: "Cartelería",
         precio: 65000,
         imagen: "https://i.postimg.cc/sX1hDyps/Whats-App-Image-2026-03-13-at-22-19-02.jpg",
-        descripcion: "Diseños a medida. Colores y tamaños sujeeeto a modificacion de precio"
+        descripcion: "Diseños a medida. Colores y tamaños sujetos a modificación de precio."
     },
     {
-        nombre: "LETRAS IMPRESION 3D CON FONDO PARA LUCES Y DIFUSOR",
+        nombre: "LETRAS IMPRESIÓN 3D CON FONDO PARA LUCES Y DIFUSOR",
         categoria: "Cartelería",
         precio: 60000,
         imagen: "https://i.postimg.cc/NjJmHpQh/Whats-App-Image-2026-03-13-at-22-26-06.jpg",
-        descripcion: "Diseños a medida. Impresion 3d con opcion en PLA,ABS, PETS o policarbonato."
+        descripcion: "Diseños a medida. Impresión 3D con opción en PLA, ABS, PETG o policarbonato."
     },
     {
         nombre: "Balde Cerveza",
         categoria: "Cartelería",
         precio: 60000,
         imagen: "https://i.postimg.cc/fy8Trq2j/Whats-App-Image-2026-03-13-at-22-28-00.jpg",
-        descripcion: "Diseños a medida. Precio por letra"
+        descripcion: "Diseños a medida. Precio referencial."
     },
     {
         nombre: "TC 3D IMPRESO EN PLA",
         categoria: "Cartelería",
         precio: 30000,
         imagen: "https://i.postimg.cc/zXLrNf39/Whats-App-Image-2026-03-13-at-22-26-06-(1).jpg",
-        descripcion: "Diseños a medida. Impresion 3d con opcion en PLA,ABS, PETS o policarbonato."
+        descripcion: "Diseños a medida. Impresión 3D con opción en PLA, ABS, PETG o policarbonato."
     },
     {
         nombre: "Cable RGB 0.5mm (por metro)",
@@ -433,10 +433,10 @@ const productos = [
         categoria: "Kits",
         precio: 13000,
         imagen: "https://i.postimg.cc/SxP2t8cg/Chat-GPT-Image-14-mar-2026-12-54-50.png",
-        descripcion: "Combo para sumar de a 2metros, IDEAL para SETUP GAMER o cielos rasos."
+        descripcion: "Combo para sumar de a 2 metros, IDEAL para SETUP GAMER o cielos rasos."
     },
     {
-        nombre: "KIT SEGURIDA INTELIGENTE EXTERIOR Y LLUVIA- ELECTRO LED",
+        nombre: "KIT SEGURIDAD INTELIGENTE EXTERIOR Y LLUVIA - ELECTRO LED",
         categoria: "Kits",
         precio: 265000,
         imagen: "https://i.postimg.cc/NMb2xSbK/Chat-GPT-Image-13-mar-2026-06-58-24-p-m.png",
@@ -462,5 +462,77 @@ const productos = [
         precio: 31900,
         imagen: "https://i.postimg.cc/DyGs9jwj/Chat-GPT-Image-13-mar-2026-07-20-11-p-m.png",
         descripcion: "5m tira RGB + Fuente + Control Remoto. Simple y efectivo."
+    },
+
+    // --- SECCIÓN DE INSTALACIONES ---
+    {
+        nombre: "Tiras LED rgb ocultas en cielo raso",
+        categoria: "Instalaciones",
+        precio: 0000, 
+        imagen: "https://i.postimg.cc/jjQBZkx9/20250808-152634.jpg", 
+        descripcion: "Colocación profesional de tiras LED. Trabajo prolijo, sin cables a la vista y a medida para tu espacio. Pedir cotización y opciones recomendadas."
+    },
+    {
+        nombre: "Tiras LED PIXEL con perfil de embutir y difusor",
+        categoria: "Instalaciones",
+        precio: 0000, 
+        imagen: "https://i.postimg.cc/7LYjtnfW/20250807-141252.jpg", 
+        descripcion: "Colocación profesional de tiras LED. Trabajo prolijo, sin cables a la vista y a medida para tu espacio. Pedir cotización y opciones recomendadas."
+    },
+    {
+        nombre: "Dicroicas y Tiras LED rgb con perfil de montar y difusor",
+        categoria: "Instalaciones",
+        precio: 0000, 
+        imagen: "https://i.postimg.cc/wBwY9bC1/20250705-102727.jpg", 
+        descripcion: "Colocación profesional de tiras LED. Trabajo prolijo, sin cables a la vista y a medida para tu espacio. Pedir cotización y opciones recomendadas."
+    },
+    {
+        nombre: "Tiras LED Blanco Calido ocultas en cielo raso",
+        categoria: "Instalaciones",
+        precio: 0000, 
+        imagen: "https://i.postimg.cc/XvP3wzQh/20260221-154121.jpg", 
+        descripcion: "Colocación profesional de tiras LED. Trabajo prolijo, sin cables a la vista y a medida para tu espacio. Pedir cotización y opciones recomendadas."
+    },
+    {
+        nombre: "Neon led blanco calido en escalones, visible",
+        categoria: "Instalaciones",
+        precio: 000, 
+        imagen: "https://i.postimg.cc/W4dcb7TW/20260221-151443.jpg", 
+        descripcion: "Instalación física en la puerta y configuración completa en la aplicación de tu celular para que quede lista para usar."
+    },
+    {
+        nombre: "Espejo con iluminación de Neón led blanco calido accionado por VOZ y App",
+        categoria: "Instalaciones",
+        precio: 000, 
+        imagen: "https://i.postimg.cc/fTR2NRw5/20250823-021753.jpg", 
+        descripcion: "Instalación física en la puerta y configuración completa en la aplicación de tu celular para que quede lista para usar."
+    },
+    {
+        nombre: "Isla Flotante con ilumición tipo estrellas y fondo en colores RGB controlado por App y hoarios programados",
+        categoria: "Instalaciones",
+        precio: 000, 
+        imagen: "https://i.postimg.cc/8cj6Z9SF/20250919-193732.jpg", 
+        descripcion: "Instalación física en la puerta y configuración completa en la aplicación de tu celular para que quede lista para usar."
+    },
+    {
+        nombre: "Iluminacion Bipin en escalones encendidas por sensor de proximidad",
+        categoria: "Instalaciones",
+        precio: 000, 
+        imagen: "https://i.postimg.cc/mgNtyBHX/20250925-135757.jpg", 
+        descripcion: "Instalación física en la puerta y configuración completa en la aplicación de tu celular para que quede lista para usar."
+    },
+    {
+        nombre: "Espacio GAMER iluminado por tiras RGB ocultas y PIXEL LED con difusor esquinero encendido y programado por comando de voz",
+        categoria: "Instalaciones",
+        precio: 000, 
+        imagen: "https://i.postimg.cc/y8PFjwgM/20260114-000433.jpg", 
+        descripcion: "Instalación física en la puerta y configuración completa en la aplicación de tu celular para que quede lista para usar."
+    },
+    {
+        nombre: "Automatización de Luces (Domótica)",
+        categoria: "Instalaciones",
+        precio: 20000, 
+        imagen: "https://i.postimg.cc/wjMN7ybs/904336441699da80ecdf9d4-43049716-36c3f002e6215bfd2617731817580192-1024-1024.webp", 
+        descripcion: "Instalación de módulos y teclas Smart. Configuramos todo con tu red WiFi para que manejes tu casa desde el celular o con la voz."
     }
 ];
