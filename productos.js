@@ -494,7 +494,7 @@ const productos = [
         descripcion: "Colocación profesional de tiras LED. Trabajo prolijo, sin cables a la vista y a medida para tu espacio. Pedir cotización y opciones recomendadas."
     },
     {
-        nombre: "Neon led blanco calido en escalones, visible",
+        nombre: "Neon led blanco calido en escalones con sensor de movimiento",
         categoria: "Instalaciones",
         precio: 000, 
         imagen: "https://i.postimg.cc/W4dcb7TW/20260221-151443.jpg", 
@@ -508,7 +508,7 @@ const productos = [
         descripcion: "Instalación física en la puerta y configuración completa en la aplicación de tu celular para que quede lista para usar."
     },
     {
-        nombre: "Isla Flotante con ilumición tipo estrellas y fondo en colores RGB controlado por App y hoarios programados",
+        nombre: "Isla Flotante con ilumición tipo estrellas y fondo en colores RGB controlado por App y horarios programados",
         categoria: "Instalaciones",
         precio: 000, 
         imagen: "https://i.postimg.cc/8cj6Z9SF/20250919-193732.jpg", 
