@@ -529,6 +529,20 @@ const productos = [
         descripcion: "Instalación física en la puerta y configuración completa en la aplicación de tu celular para que quede lista para usar."
     },
     {
+        nombre: "Iluminacón led para cocina con sensor de presencia",
+        categoria: "Instalaciones",
+        precio: 000, 
+        imagen: "https://i.postimg.cc/Pxx7MWSY/IMG-20240409-011039367.jpg", 
+        descripcion: "Instalación física en la puerta y configuración completa en la aplicación de tu celular para que quede lista para usar."
+    },
+    {
+        nombre: "Estrella NEON Flex AZUL enchufable. Tamaño 90cm",
+        categoria: "Instalaciones",
+        precio: 00,
+        imagen: "https://i.postimg.cc/XJLCnF37/IMG-20260306-WA0014-(1).jpg",
+        descripcion: "Trabajos a medida con colores en neon y tamaños de todo tipo"
+    },
+    {
         nombre: "Automatización de Luces (Domótica)",
         categoria: "Instalaciones",
         precio: 20000, 
