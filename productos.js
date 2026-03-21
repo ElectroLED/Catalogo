@@ -4,7 +4,8 @@ const productos = [
         categoria: "Cintas y Neón",
         precio: 3500,
         imagen: "https://i.postimg.cc/7YMDWPXb/manguera-led-neon-fucsia-01-copia-8d911060a3b556341717539973845420-1024-1024.webp", 
-        descripcion: "Ideal para decoración y carteles. Varios colores disponibles."
+        descripcion: "Ideal para decoración y carteles. Varios colores disponibles.",
+        aviso: "nuevo"
     },
     {
         nombre: "Led NEON Flex Naranja por metro",
@@ -53,7 +54,8 @@ const productos = [
         categoria: "Cintas y Neón",
         precio: 14500,
         imagen: "https://i.postimg.cc/zvz0PwqG/D-NQ-NP-2X-820961-MLA99988659909-112025-F.webp", 
-        descripcion: "Neón multicolor con efectos dinámicos."
+        descripcion: "Neón multicolor con efectos dinámicos.",
+        aviso: "nuevo"
     },
     {
         nombre: "Tira 5050 Interior Blanco Cálida x 5mts",
@@ -81,7 +83,8 @@ const productos = [
         categoria: "Domótica",
         precio: 18900,
         imagen: "https://i.postimg.cc/kMswS9GH/40900295268eff6b20be5c0-60621010-9205bb3680d9290f7817734096961072-1024-1024.webp",
-        descripcion: "Sincronizá tus luces con la música. Compatible con Alexa/Google."
+        descripcion: "Sincronizá tus luces con la música. Compatible con Alexa/Google.",
+        aviso: "nuevo"
     },
     {
         nombre: "Control Remoto Smart WiFi+IR Universal",
@@ -116,7 +119,8 @@ const productos = [
         categoria: "Iluminación",
         precio: 69000,
         imagen: "https://i.postimg.cc/Qdv47pgg/D-NQ-NP-2X-752136-MLA99443028144-112025-F.webp",
-        descripcion: "Resistente al agua, ideal para decorar con colores árboles, patios y frentes. Control por APP, programable y dimerizable. Apto para manejar con Google Home o Alexa."
+        descripcion: "Resistente al agua, ideal para decorar con colores árboles, patios y frentes. Control por APP, programable y dimerizable. Apto para manejar con Google Home o Alexa.",
+        aviso: "nuevo"
     },
     {
         nombre: "Panel LED Montar Redondo 24W Fría",
@@ -172,7 +176,8 @@ const productos = [
         categoria: "Seguridad",
         precio: 40900,
         imagen: "https://i.postimg.cc/4yYKnzmk/181371257468f00476bc6be1-83953344-94405615611040a20317734108510041-1024-1024.webp",
-        descripcion: "Visión 360, audio bidireccional y visión nocturna."
+        descripcion: "Visión 360, audio bidireccional y visión nocturna.",
+        aviso: "nuevo"
     },
     {
         nombre: "Cámara DUAL Smart WiFi Exterior",
@@ -186,7 +191,8 @@ const productos = [
         categoria: "Seguridad",
         precio: 87000,
         imagen: "https://i.postimg.cc/g0LH0zzn/D-NQ-NP-2X-898718-MLA95400691792-102025-F.webp",
-        descripcion: "Este dispositivo te permite grabar videos en alta calidad de lo que ocurre en tu hogar o negocio. Con una resolución de 720p, podrás revisar todos los videos con gran detalle y nitidez."
+        descripcion: "Este dispositivo te permite grabar videos en alta calidad de lo que ocurre en tu hogar o negocio. Con una resolución de 720p, podrás revisar todos los videos con gran detalle y nitidez.",
+        aviso: "poco"
     },
     {
         nombre: "Cámara de Seguridad 3MP WIFI Audio Giro 360° IR 10M SD",
@@ -198,16 +204,26 @@ const productos = [
     {
         nombre: "Cerradura Biométrica Smart WIFI c/Cámara",
         categoria: "Seguridad",
-        precio: 169000,
+        precio: 199000,
         imagen: "https://i.postimg.cc/tgrWTR2D/106837583068e0d43a2d8346-51399007-63ea19aa4a020b5ce217734110937818-1024-1024.webp",
-        descripcion: "Combina funcionalidad avanzada y diseño moderno. Múltiples métodos de desbloqueo: Huella dactilar (0,3 seg), Contraseña anti-snooping, Tarjetas IC magnéticas, Llaves mecánicas y Control remoto vía App Smart Life."
+        descripcion: "Combina funcionalidad avanzada y diseño moderno. Múltiples métodos de desbloqueo: Huella dactilar (0,3 seg), Contraseña anti-snooping, Tarjetas IC magnéticas, Llaves mecánicas y Control remoto vía App Smart Life.",
+        aviso: "agotado"
+    },
+    {
+        nombre: "Cerradura Biométrica Smart WIFI - HUELLA, CODIGO APP, TARJETA",
+        categoria: "Seguridad",
+        precio: 169000,
+        imagen: "https://i.postimg.cc/4NryP2hp/D-NQ-NP-2X-733835-MLA105400380246-012026-F.jpg",
+        descripcion: "¡Tu huella dactilar es tu llave! Con esta cerradura de alta tecnología, el acceso a tu hogar es más seguro y sencillo que nunca. Olvidate de las llaves perdidas y las copias inseguras. Gracias a su conexión Wi-Fi 2.4GHz, podés controlar quién entra y sale desde cualquier lugar del mundo. 5 Métodos de Apertura Huella Dactilar: Sensor semiconductor de alta precisión (apertura en 1 segundo). App Smart Life / Tuya: Apertura remota y gestión de usuarios desde el celular. Contraseña Numérica: Incluye función de contraseña virtual (escondé tu clave real entre números aleatorios). Tarjeta de Proximidad (RFID): Ideal para niños o adultos mayores (incluye 2 unidades).Llave Mecánica: Sistema de respaldo para emergencias (incluye 2 llaves).",
+        aviso: "ultima"
     },
     {
         nombre: "Timbre SMART WIFI con cámara",
         categoria: "Domótica",
         precio: 40000,
         imagen: "https://i.postimg.cc/sg5Rsvf5/191651422368d1e570614699-81010179-4b1c9c7720e1c9008017734073846934-1024-1024.webp",
-        descripcion: "Timbre con cámara de video inalámbrica WiFi 2.4G. Trabaja con App Smart Life. Alta resolución 480P. Cuenta con audio bidireccional y micrófono incorporado para hablar y ver a sus visitantes en cualquier momento."
+        descripcion: "Timbre con cámara de video inalámbrica WiFi 2.4G. Trabaja con App Smart Life. Alta resolución 480P. Cuenta con audio bidireccional y micrófono incorporado para hablar y ver a sus visitantes en cualquier momento.",
+        aviso: "nuevo"
     },
     {
         nombre: "Sensor de Movimiento 360°",
@@ -228,21 +244,24 @@ const productos = [
         categoria: "Domótica",
         precio: 39700,
         imagen: "https://i.postimg.cc/25WFvMTq/C-TWSN-1CH-para-web-3-11zon.webp",
-        descripcion: "Control de voz para encender y apagar 1 luz. Te permite ahorrar energía eléctrica programando el encendido y apagado de las luces cuando desees."
+        descripcion: "Control de voz para encender y apagar 1 luz. Te permite ahorrar energía eléctrica programando el encendido y apagado de las luces cuando desees.",
+        aviso: "nuevo"
     },
     {
         nombre: "TECLA SMART 2 puntos Black vidrio táctil",
         categoria: "Domótica",
         precio: 39999,
         imagen: "https://i.postimg.cc/6577yRMT/C-TWSN-2CH-web-5-11zon.webp",
-        descripcion: "Control de voz para encender y apagar hasta 2 luces. Te permite ahorrar energía eléctrica programando el encendido y apagado."
+        descripcion: "Control de voz para encender y apagar hasta 2 luces. Te permite ahorrar energía eléctrica programando el encendido y apagado.",
+        aviso: "nuevo"
     },
     {
         nombre: "TECLA SMART 3 puntos Black vidrio táctil",
         categoria: "Domótica",
         precio: 44300,
         imagen: "https://i.postimg.cc/7hjZgsKG/C-TWSN-3CH-web-6-11zon.webp",
-        descripcion: "Control de voz para encender y apagar hasta 3 luces. Te permite ahorrar energía eléctrica programando el encendido y apagado."
+        descripcion: "Control de voz para encender y apagar hasta 3 luces. Te permite ahorrar energía eléctrica programando el encendido y apagado.",
+        aviso: "nuevo"
     },
     {
         nombre: "BAJO ALACENA CON TECLA 09W FRIO",
@@ -440,7 +459,8 @@ const productos = [
         categoria: "Kits",
         precio: 265000,
         imagen: "https://i.postimg.cc/NMb2xSbK/Chat-GPT-Image-13-mar-2026-06-58-24-p-m.png",
-        descripcion: "Protección total y control desde tu celular. Incluye: 1 Cerradura Biométrica Smart (Huella/App), 1 Cámara WiFi 360° con audio, 1 Sensor de Movimiento y 1 Sensor de Apertura de puertas/ventanas. ¡Todo gestionado desde la misma App!"
+        descripcion: "Protección total y control desde tu celular. Incluye: 1 Cerradura Smart (Huella/App), 1 Cámara WiFi 360° con audio, 1 Sensor de Movimiento y 1 Sensor de Apertura de puertas/ventanas. ¡Todo gestionado desde la misma App!",
+        aviso: "ultima"
     },
     {
         nombre: "KIT SEGURIDAD HOGAR INTELIGENTE - ELECTRO LED",
