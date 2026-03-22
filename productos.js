@@ -94,6 +94,46 @@ const productos = [
         descripcion: "Manejá TV y Aire desde el celu. Incluye sensor TyH."
     },
     {
+        nombre: "Controladora Wifi Rgbw Control Remoto Led 3 En 1 Unicolor + Rgb + Rgbw 5-24v 10a 2,4ghz",
+        categoria: "Cintas y Neón",
+        precio: 26000,
+        imagen: "https://i.postimg.cc/fywSMKdy/D-NQ-NP-2X-734369-MLA88726861450-072025-F.webp",
+        descripcion: "El controlador LED SPI 3 en 1 es una solución versátil para gestionar tiras LED en tres modos distintos: unicolor, RGB y RGBW. Perfecto para proyectos de iluminación avanzados, es compatible con una amplia gama de chips y puede integrarse fácilmente en sistemas más grandes.",
+        aviso: "ultima"
+    },
+    {
+        nombre: "Control Remoto Pixel 3v 2.4ghz Inalambrico Para Tira Led",
+        categoria: "Cintas y Neón",
+        precio: 32500,
+        imagen: "https://i.postimg.cc/Z5TmjQSS/D-NQ-NP-2X-639884-MLA101076880188-122025-F.webp",
+        descripcion: "Alinee el color y ajuste la longitud (número de píxeles pt) de la tira SPI, seleccione el modo dinámico y controle la velocidad, guarde la escena Tecnología de transmisión inalámbrica 2.4G con alta velocidad de transmisión, señal estable y fuerte capacidad antiinterferenteControla varios dispositivos al mismo tiempo, admite la comunicación con varios dispositivos",
+        aviso: "ultima"
+    },
+    {
+        nombre: "Controlador Wifi Master, Rgb+dual White, 5v 500m. A2.4ghz",
+        categoria: "",
+        precio: 65000,
+        imagen: "https://i.postimg.cc/QdL9th1S/D-NQ-NP-2X-895059-MLA80046492051-102024-F.webp",
+        descripcion: "Este controlador maestro inalámbrico se utiliza para conectar las luces inteligentes a su dispositivo móvil. Este controlador se puede usar para controlar luces RGB y blancas y puede controlar tantas bombillas como sea posible. Funciona para teléfonos y tabletas Android, iPhone, iPad y iPod Touch. Puede unirse a redes domésticas o comerciales.",
+        aviso: "ultima"
+    },
+    {
+        nombre: "Higrómetro Medidor Humedad Ambiente Sensor De Temperatura Y Humedad Wifi Con Pantalla",
+        categoria: "Domótica",
+        precio: 26000,
+        imagen: "https://i.postimg.cc/5NdtVpw6/D-NQ-NP-2X-787510-MLA92624630862-092025-F.webp",
+        descripcion: "El sensor inteligente de temperatura y humedad es la solución ideal para monitorear el ambiente en tiempo real, asegurando el confort y la seguridad en tu hogar, oficina o cualquier espacio que requiera control climático. Gracias a su conectividad avanzada y su diseño compacto, podrás acceder a los datos de temperatura y humedad desde tu smartphone en cualquier momento y lugar.",
+        aviso: ""
+    },
+    {
+        nombre: "Cable 'Y' divisor Rgb 1 X 2 4 Pines Tira Led Rgb",
+        categoria: "Electrónica",
+        precio: 5990,
+        imagen: "https://i.postimg.cc/WbCCKfgp/207954502568ccb33154fc21-63957086-9d674c9e8edc45890917734056120536-1024-1024.webp",
+        descripcion: "El Y-Splitter se usa para hacer divisiones, por lo que si bien estos no van a acentuar cosas como las tiras blancas frías o cálidas, todavía hay muchas opciones de aplicación para las tiras RGB divididas.",
+        aviso: ""
+    },
+    {
         nombre: "Lámpara Dicroica LED 7W Fría 6500°K",
         categoria: "Iluminación",
         precio: 3000,
@@ -214,7 +254,7 @@ const productos = [
         categoria: "Seguridad",
         precio: 169000,
         imagen: "https://i.postimg.cc/4NryP2hp/D-NQ-NP-2X-733835-MLA105400380246-012026-F.jpg",
-        descripcion: "¡Tu huella dactilar es tu llave! Con esta cerradura de alta tecnología, el acceso a tu hogar es más seguro y sencillo que nunca. Olvidate de las llaves perdidas y las copias inseguras. Gracias a su conexión Wi-Fi 2.4GHz, podés controlar quién entra y sale desde cualquier lugar del mundo. 5 Métodos de Apertura Huella Dactilar: Sensor semiconductor de alta precisión (apertura en 1 segundo). App Smart Life / Tuya: Apertura remota y gestión de usuarios desde el celular. Contraseña Numérica: Incluye función de contraseña virtual (escondé tu clave real entre números aleatorios). Tarjeta de Proximidad (RFID): Ideal para niños o adultos mayores (incluye 2 unidades).Llave Mecánica: Sistema de respaldo para emergencias (incluye 2 llaves).",
+        descripcion: "¡Tu huella dactilar es tu llave! Con esta cerradura de alta tecnología, el acceso a tu hogar es más seguro y sencillo que nunca. Olvidate de las llaves perdidas y las copias inseguras. Gracias a su conexión Wi-Fi 2.4GHz, podés controlar quién entra y sale desde cualquier lugar del mundo",
         aviso: "ultima"
     },
     {
@@ -227,17 +267,25 @@ const productos = [
     },
     {
         nombre: "Sensor de Movimiento 360°",
-        categoria: "Seguridad",
+        categoria: "Domótica",
         precio: 21000,
         imagen: "https://i.postimg.cc/KYn8zmF7/sensor1.webp",
-        descripcion: "Ideal para pasillos y ahorro de energía."
+        descripcion: "Mantenerse seguro a usted y a los suyos será mucho más fácil con este sensor de movimiento PIR inalámbrico. Sin necesidad de cableado y con un diseño mini y elegante, este sensor de movimiento es el complemento perfecto para cualquier sistema de seguridad. Detecta el movimiento de personas o animales, enviando una notificación a su teléfono inteligente para mantenerlo alerta y seguro."
     },
     {
         nombre: "Sensor de apertura Smart Para Puertas Y Ventanas Magnético",
-        categoria: "Seguridad",
+        categoria: "Domótica",
         precio: 20000,
         imagen: "https://i.postimg.cc/sDZyXnDG/23732661169affa917a55b7-50518846-a7af8e257a5b11b04a17734068674640-1024-1024.webp",
         descripcion: "Ideal para puertas, ventanas y portones. Notificaciones automáticas e inmediatas a su teléfono cuando se abre o cierra para mantenerlo informado todo el tiempo."
+    },
+    {
+        nombre: "Sensor de inundación Smart WIFI app",
+        categoria: "Domótica",
+        precio: 22000,
+        imagen: "https://i.postimg.cc/kgRqZbHS/D-Q-NP-767561-MLA72714349997-112023-F.webp",
+        descripcion: "Notificaciones push: notificaciones inmediatas a su teléfono cuando se detecta una fuga o desbordamiento de agua para mantenerlo informado todo el tiempo. Alerta de alarma: siempre que se detecte una fuga o desbordamiento de agua, se enviará una alarma para avisarle que hay una fuga o desbordamiento de agua en proceso. Grabación de alarma: verifique sus registros y nunca se pierda información importante.",
+        aviso: ""
     },
     {
         nombre: "TECLA SMART 1 punto Black vidrio táctil",
